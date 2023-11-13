@@ -1,13 +1,13 @@
-![EmberForge Banner](https://i.ibb.co/z6W4w07/Banner.jpg)
+![Emblem Forge Banner](https://i.ibb.co/z6W4w07/Banner.jpg)
 
 
-# EmberForge: A Highly Customizable Unity C# Framework for Tactical Strategy Games
+# Emblem Forge: A Highly Customizable Unity C# Framework for Tactical Strategy Games
 
-Welcome to EmberForge, a Unity framework designed to build highly customizable turn-based tactical strategy games reminiscent of titles like Fire Emblem and Advance Wars.
+Welcome to Emblem Forge, a Unity framework designed to build highly customizable turn-based tactical strategy games reminiscent of titles like Fire Emblem and Advance Wars.
 
 ## Overview
 
-EmberForge provides a robust set of Unity C# scripts that form the foundation for developing turn-based tactical games within the Unity game engine. The framework revolves around strategic unit movement on a grid-based map, turn-based combat, and diverse game elements inspired by classic tactical RPGs.
+Emblem Forge provides a robust set of Unity C# scripts that form the foundation for developing turn-based tactical games within the Unity game engine. The framework revolves around strategic unit movement on a grid-based map, turn-based combat, and diverse game elements inspired by classic tactical RPGs.
 
 ## Core Components
 
