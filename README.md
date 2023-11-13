@@ -1,4 +1,4 @@
-![EmberForge Banner]([https://i.ibb.co/BVrQpjq/Pulse-Logo.png](https://i.ibb.co/z6W4w07/Banner.jpg))
+![EmberForge Banner]([https://i.ibb.co/z6W4w07/Banner.jpg])
 
 # EmberForge: A Highly Customizable Unity C# Framework for Tactical Strategy Games
 
