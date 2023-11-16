@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class UnitController : MonoBehaviour
@@ -11,9 +12,22 @@ public class UnitController : MonoBehaviour
     //2 = attacked
     GameManager gameManager;
 
+    public Unit unit;
+
+    public int maxHP;
+    public int currentHP;
+
+    public Slider HPSlider;
+
     void Start()
     {
         gameManager = GameManager.instance;
+
+        maxHP = unit.health;
+        currentHP = maxHP;
+
+        HPSlider.maxValue = maxHP;
+        HPSlider.value = currentHP;
     }
 
     public void HighlightAvailableMoves()
@@ -35,9 +49,6 @@ public class UnitController : MonoBehaviour
         // Move the unit to the selected tile position
         transform.position = position;
 
-        // Set the unit's turn as used
-        hasGoneThisTurn = true;
-
         gameManager.EnableButtonOptions();
         
     }
@@ -57,5 +68,11 @@ public class UnitController : MonoBehaviour
     void OnMouseDown()
     {
         gameManager.SelectUnit(this);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHP -= damage;
+        HPSlider.value = currentHP;
     }
 }
